@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wextra -Werror -pedantic -O2
 TARGET = a.out
-SRC = P3147.cpp
+SRC = P1435.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
